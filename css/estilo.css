@@ -1,0 +1,56 @@
+
+/* Classes Formatação DIV */
+.c1 {/*
+	border: 1px solid black; 
+	background-color: gray; 
+	*/
+	margin-top: 10px;	
+}
+
+.c2 {
+	background-color: white;
+	border: 10px double rgba(117, 190, 218, 0.75);
+	margin-bottom: 10px;
+}
+
+.progresso{border: 1px solid black;}
+
+.m-link{
+	opacity: 0.5;
+	transition: opacity 1s;
+}
+
+.m-link:hover{
+	/* 
+	box-shadow: 2px 2px 2px rgba(51,59,158,0.5);
+	border-radius: 2px;
+	*/
+	background-color: white;
+	opacity: 1;
+	transition: opacity 1s;
+}
+
+.corpo {
+	margin-top: 40px;
+}
+
+
+/* Classes Formatação IMG*/
+.foto-index{
+	max-width: 180px;
+}
+
+.f-link{
+	max-width: 200px;
+	height: 150px
+}
+
+.d-link{
+	margin: 5px;
+	border: 1px solid rgba(117, 190, 218, 0.75)
+}
+
+
+.borda-f-1{
+	border-left: 1px solid rgba(117, 190, 218, 0.75)
+}
