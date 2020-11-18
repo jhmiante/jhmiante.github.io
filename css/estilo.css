@@ -133,3 +133,10 @@ h2 { text-shadow: 5px 5px 5px #00000F; }
 .imgClass{
 	max-width: 800px;
 }
+
+.atencao{
+	background-color: orange;
+	border-radius:25px;
+	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
+	
+}
