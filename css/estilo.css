@@ -135,7 +135,7 @@ h2 { text-shadow: 5px 5px 5px #00000F; }
 }
 
 .atencao{
-	background-color: orange;
+	background-color: #FFFFE0;
 	border-radius:25px;
 	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
 	
