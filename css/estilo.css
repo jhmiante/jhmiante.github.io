@@ -139,4 +139,5 @@ h2 { text-shadow: 5px 5px 5px #00000F; }
 	border-radius:25px;
 	-moz-border-radius:25px; /* Firefox 3.6 and earlier */
 	width: 700px;
+	padding:10px;
 }
