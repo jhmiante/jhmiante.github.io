@@ -102,7 +102,7 @@ h2 { text-shadow: 5px 5px 5px #00000F; }
 		width: 600px;
 		border-radius:5px;
 		-moz-border-radius:5px; /* Firefox 3.6 and earlier */
-		margin: 25px auto;
+		margin: 25px 10px;
 		padding:10px 40px;
 	}
 
