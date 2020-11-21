@@ -11,8 +11,8 @@ namePages[1] = "Programação Web"
 pages[2] = "cs-poo"
 namePages[2] = "Programação POO"
 
-pages[2] = "construcao"
-namePages[2] = "Área em Desenvolvimento"
+pages[3] = "construcao"
+namePages[3] = "Área em Desenvolvimento"
 
 
 for (var i = 0; i < pages.length; i++){
