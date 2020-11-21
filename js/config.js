@@ -11,6 +11,9 @@ namePages[1] = "Programação Web"
 pages[2] = "cs-poo"
 namePages[2] = "Programação POO"
 
+pages[2] = "construcao"
+namePages[2] = "Área em Desenvolvimento"
+
 
 for (var i = 0; i < pages.length; i++){
 	htmlString += ' <div class="col-md-5 d-link text-center py-2 m-link" id="link-web"> ' +
