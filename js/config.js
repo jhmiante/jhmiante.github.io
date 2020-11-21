@@ -2,12 +2,14 @@ var htmlString = ""
 var pages = new Array()
 var namePages = new Array()
 
-pages[0] = "cs-web"
-namePages[0] = "Programação Web"
+pages[0] = "dev-csharp"
+namePages[0] = "Linguagem C#"
 
+pages[1] = "cs-web"
+namePages[1] = "Programação Web"
 
-pages[1] = "cs-poo"
-namePages[1] = "Programação POO"
+pages[2] = "cs-poo"
+namePages[2] = "Programação POO"
 
 
 for (var i = 0; i < pages.length; i++){
