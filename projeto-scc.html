@@ -1,0 +1,176 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="author" content="Jonathas Henrique Miante" />
+        <title>J.Miante - Portifólio</title>
+        <link rel="icon" type="image/x-icon" href="static/img/ico.ico" />
+
+        <!-- Custom Google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
+                
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="static/css/styles-index.css" rel="stylesheet" />
+        <link href="static/css/style.css" rel="stylesheet" />
+        <link href="static/css/text.css" rel="stylesheet" />
+
+        <!--Flaticon -->
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@2.2.0/css/all/all.min.css" />
+    </head>
+    <body class="d-flex flex-column h-100 bg-dark">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark text-white py-3 sticky-top">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html"><span class="fw-bolder  text-white">J.Miante</span></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                            <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="index.html#project-index">Projetos</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="index.html#skill-index">Habilidades</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="index.html#contato-index">Contatos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <header class="py-5" id="header-index">
+                <div class="container px-5 pb-5">
+                    <div class="row gx-5 align-items-center">    
+                        <div class="col-xxl-5">
+                            <img src="static/img/portfolio/scc/000.png" class="img img-fluid">
+                        </div>
+
+                        <div class="col-xxl-7">
+                            <div class="text-center text-xxl-start">
+                                
+                                <div class="fs-3 fw-light text-muted mt-4">Projeto</div>
+                                <h1 class="display-3 fw-bolder mt-4"><span class="text-white d-inline">SCC</span></h1>
+                                <div class="fs-3 fw-light text-muted mt-1 mb-5">Sistema de Controle de Campanhas</div>
+                                <div class="fs-5 gap-4 text-white small">
+                                    <b>Status:</b> Em Andamento
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section id="resumo" class="bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-4 text-dark">
+                            <h3>APRESENTAÇÃO</h3>
+                            <hr>
+                        </div>
+
+                        <div class="col-12 row justify-content-between">                            
+                            <p>O sistema SCC é uma plataforma desenvolvida com foco no controle e gerenciamento de campanhas</p>
+                            <p>O Projeto foi desenvolvido pensando na melhor forma de manter o equilíbrio da liberdade de criações de modelos de campanhas e automações de processos, na criação de históricos, auditorias e segurança.</p>
+                            <p>E ainda, todo projeto pode ser customizado para melhor atender as necessidades de cada empresa</p>
+                        </div>
+
+                        <div class="col-12 mt-4 text-dark">
+                            <h3>COMO FUNCIONA</h3>
+                            <hr>
+                        </div>
+
+                        <div class="col-12 row justify-content-between">                            
+                            <p>As Campanhas dentro da plataforma, foram projetadas por sistema de pontuação e divisão de grupos e categorias de grupo (nomeados como Grupo Geral), sendo criado Premiações por essas categorias.</p>
+                            <p>As metas são divididas de acordo com o peso de cada grupo, de forma automatizada, tudo que tem que ser informado é a meta em quantidade de cada item o qual a pontuação de cada venda do item, o resto é por nossa conta.</p>
+                            <p>Após a criação e confirmação da campanha, as atualizações ocorrerão de forma automatizada, via API.</p>
+                            <p>Na implantação de nosso sistema, será configurado no servidor do cliente uma API que enviará os dados de vendas dos produtos participantes da campanha, atualizando de acordo com o período desejado pelo cliente.</p>
+                            <p>Apenas os dados dos produtos com campanha ativa será enviado para a plataforma.</p>
+                        </div>
+
+                        <div class="col-12 mt-4"></div>
+                    </div>                    
+                </div>
+                
+            </section>
+
+            <section id="beneficios" class="text-white">
+                <div class="container">
+                    <div class="col-12 mt-4 text-white">
+                        <h3>PRINCIPAIS BENEFÍCIOS</h3>
+                        <hr>
+                    </div>
+
+                    <div class="col-12 row ">  
+                        <ul>
+                            <li>Ganho de Produtividade</li>
+                            <li>Velocidade na informação para loja</li>
+                            <li>Controle</li>
+                            <li>Segurança</li>
+                            <li>Histórico das Campanhas</li>
+                            <li>Velocidade nas Apurações</li>
+                            <li>Relatórios</li>
+                            <li>Análises e Insight</li>
+                        </ul>
+                        
+                        
+                        <h5 class="mt-4">Levamos a segurança a sério...</h5>
+                        <p>
+                            O acesso a plataforma é controlado por login e senha, apenas usuários cadastrados na plataforma poderão ter acesso ao sistema. <br>
+                            Os dados são de propriedade do cliente, nunca será compartilhado com terceiros. <br>
+                            Em caso de finalização do contrato, será enviado o backup para o cliente e os dados serão excluídos da plataforma.
+                        </p>
+                    </div>
+
+                </div>
+
+                    
+                    
+                <div class="col-12 mt-4"></div>
+                </div>               
+
+            </section>
+
+            
+
+            <section id="imagens-scc" class="bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mt-4 text-dark">
+                            <h3>Imagens do Projeto</h3>
+                            <hr>
+                        </div>
+
+                        <div class="col-12 row justify-content-between p-2">
+                            <img src="static/img/portfolio/scc/001.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/002.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/003.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/004.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/005.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/006.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/007.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/008.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/009.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/010.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/011.png" class="img img-fluid mt-2">
+                            <img src="static/img/portfolio/scc/012.png" class="img img-fluid mt-2">
+                              
+                        </div>
+
+                        
+                        <div class="col-12 mt-4"></div>
+                    </div>                    
+                </div>
+                
+            </section>
+
+        </main>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="static/js/script-index.js"></script>
+    </body>
+</html>
