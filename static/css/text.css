@@ -1,0 +1,24 @@
+
+.text-25{ font-size: 25px; } .text-40{ font-size: 40px; }  .text-50{ font-size: 50px; } .text-100{ font-size: 100px; }
+
+.text-green{ color: rgb(25, 145, 25);}
+
+.text-client { color: #213259;}
+
+.text-gradient {
+  background: -webkit-linear-gradient(315deg, #213259 0%, #b91212 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-dark {
+  background: -webkit-linear-gradient(315deg, #000107 0%, #c6c8c9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-decoration-none { text-decoration: none; }
+
+.text-bold { font-weight: bold; }
+
+

@@ -1,0 +1,30 @@
+
+{% load static %}
+    <!-- Contact Section-->
+    <section class="bg-light py-5" id="contact-index">
+        <div class="container px-5">
+            <div class="row gx-5 justify-content-center">
+                <div class="col-xxl-8">
+                    <div class="text-center my-5">
+                        <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Contato</span></h2>
+                        <p class="text-muted text-start">Como podemos ajuda-lo? </p>
+                        <form action="{% url 'index' %}" method="post" class="text-start">
+                            {% csrf_token %}
+                            <div class="row justify-content-center">
+                                {% for field in form.visible_fields %}            
+                                    <div class=" col-12" style="margin-bottom: 10px;">
+                                        <label for="{{ field.id_for_label }}" style="color:#130101; margin-bottom: 5px;">{{field.label}}</label>
+                                        {{ field }}     
+                                    </div>
+                                {% endfor %}            
+                                <div class="col-12 mt-2">
+                                    <button type="submit" class="btn btn-primary col-12" style="padding: top 5px;">Enviar</button>
+                                </div>
+                        </form>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
