@@ -20,6 +20,7 @@
         <!--Flaticon -->
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@flaticon/flaticon-uicons@2.2.0/css/all/all.min.css" />
+        <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
     </head>
     <body class="d-flex flex-column h-100 bg-dark">
         <main class="flex-shrink-0">
@@ -71,20 +72,40 @@
                             <hr>
                         </div>
 
-                        <div class="row justify-content-between">                            
-                            <div class="col-md-4 p-3 border shadow rounded text-center text-gradient text-bold mt-2 mb-2 cursor-point" onclick="window.location.href='projeto-scc.html'">
-                                <h4>SCC</h4>
-                                <h5>Sistema de Controle de Campanhas</h5>
-                                <img src="static/img/portfolio/scc/000.png" class="img img-fluid">
-                            </div>
+                        <div class="row justify-content-between">
 
-                            <div class="col-md-4  p-3 border shadow rounded text-center text-gradient text-bold mt-2 mb-2 cursor-point" onclick="window.location.href='projeto-scai.html'">
-                                
-                                <h4>SCAI</h4>
-                                <h5>Sistema Controle de Aluguel (Imóveis)</h5>
-                                <img src="static/img/portfolio/scai/000.png" class="img img-fluid">
-                            </div>
-                        </div>
+                            <table class="table table-dark table-hover text-center">
+                                <thead>
+                                    <tr class="bg-dark">
+                                        <td></td>
+                                        <td>Nome Projeto</td>
+                                        <td>Status</td>
+                                        <td>Tipo de Licença</td>
+                                    </tr>
+
+                                </thead>
+                                <tbody class="table-light align-middle ">
+                                    <tr class="table-warning text-start"><td colspan="4">Projetos Concluídos</td></tr>
+
+                                    <tr class="cursor-point" onclick="window.location.href='projeto-scc.html'">
+                                        <td><img src="static/img/portfolio/scc/000.png" class="img img-fluid mx-50"></td>
+                                        <td>Sistema de Controle de Campanhas</td>
+                                        <td>Concluído</td>
+                                        <td>Licença de Uso Paga</td>
+                                    </tr>
+                                    
+                                    <tr class="cursor-point" onclick="window.location.href='projeto-scai.html'">
+                                        <td><img src="static/img/portfolio/scai/000.png" class="img img-fluid mx-50"></td>
+                                        <td>Sistema Controle de Aluguel (Imóveis)</td>
+                                        <td>Concluído</td>
+                                        <td>Licença de Uso Paga</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <p class="small">*** Os projetos concluídos estão em constante atualizações para melhorias e novas funcionalidades</p>
+                            <p class="text-gradient text-bold small">*** Os projetos com licenças pagas, possuem programa de afiliados, gerando comissão no primeiro ano de contrato, caso deseje mais informações favor enviar e-mail solicitando</p>
+                            
 
                         <div class="col-12 mt-4"></div>
                     </div>                    
@@ -101,111 +122,98 @@
 
                     <div class="col-12 row text-center">  
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="fi fi-brands-python text-100"></i>
-                                <h4 class="mt-4">Python</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                        <table class="table table-dark table-hover text-center border">
+                            <tbody class="align-middle ">
+                                <tr class="table-warning text-start"><td colspan="4">Programação</td></tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-50">Django</i>
-                                <br><br><br>
-                                <h4 class="mt-5">Python Framework</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><i class="fi fi-brands-python text-25"></i></td>
+                                    <td>Python</td>
+                                    <td>Linguagem Base</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-50"><i class="fi fi-ss-stats"></i> Pandas</i>
-                                <br><br><br>
-                                <h4 class="mt-5">Python Framework</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><i class="fi fi-brands-python text-25"></i></td>
+                                    <td>Django</td>
+                                    <td>Python Framework</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-40">PyAutoGui</i>
-                                <br><br><br>
-                                <h4 class="mt-5">Python Framework</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><i class="fi fi-brands-python text-25"></i></td>
+                                    <td>Pandas</td>
+                                    <td>Python Framework</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-40">Request</i>
-                                <br><br><br>
-                                <h4 class="mt-5">Python Framework</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><i class="fi fi-brands-python text-25"></i></td>
+                                    <td>PyAutoGui</td>
+                                    <td>Python Framework</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-40"><i class="fi fi-ss-stats"></i> Seaborn</i>
-                                <br><br><br>
-                                <h4 class="mt-5">Python Framework</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><i class="fi fi-brands-python text-25"></i></td>
+                                    <td>Request</td>
+                                    <td>Python Framework</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-100"><i class="fi fi-brands-mysql"></i></i>
-                                <h4 class="mt-4">MySQL</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><i class="fi fi-brands-python text-25"></i></td>
+                                    <td>Seaborn</td>
+                                    <td>Python Framework</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-100"><i class="fi fi-brands-postgre"></i></i></i>
-                                <h4 class="mt-4">PostgreSQL</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><span class="p-1 bg-white rounded text-center text-dark small">web</span></td>
+                                    <td>HTML</td>
+                                    <td>Front-End</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-50">HTML</i>
-                                <br><br><br>
-                                <h4 class="mt-5 text-white"> Front-End</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i></h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><span class="p-1 bg-white rounded text-center text-dark small">web</span></td>
+                                    <td>CSS</td>
+                                    <td>Front-End</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-50">CSS</i>
-                                <br><br><br>
-                                <h4 class="mt-5 text-white"> Front-End</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><span class="p-1 bg-white rounded text-center text-dark small">web</span></td>
+                                    <td>Java Script</td>
+                                    <td>Front-End</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-50">JS</i>
-                                <br><br><br>
-                                <h4 class="mt-5 text-white"> Front-End</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><i class="fi fi-brands-bootstrap text-25"></i></td>
+                                    <td>Bootstrap</td>
+                                    <td>Front-End</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
+                                
+                                <tr class="table-warning text-start"><td colspan="4">Banco de Dados</td></tr>
 
-                        <div class="col-xl-3 mt-3">
-                            <div class="border shadow rounded p-3 mh-400">
-                                <i class="text-100"><i class="fi fi-brands-bootstrap"></i></i>
-                                <h4 class="mt-4 text-white">Bootstrap</h4>
-                                <h4 class="mt-2"><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i> </h4>
-                            </div>
-                        </div>
+                                <tr>
+                                    <td><i class="fi fi-brands-postgre text-25"></i></td>
+                                    <td>PostgreSQL</td>
+                                    <td>SGDB</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
 
-                        
+                                <tr>
+                                    <td><i class="fi fi-brands-mysql text-25"></i></td>
+                                    <td>MySQL</td>
+                                    <td>SGDB</td>
+                                    <td><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-sr-star"></i><i class="fi fi-br-star"></i></td>
+                                </tr>
+                                
+                            </tbody>
+                        </table>                        
 
                     </div>
 
